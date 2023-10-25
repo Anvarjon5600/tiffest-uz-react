@@ -1,0 +1,23 @@
+.actiors__section {
+  padding: 14rem 0;
+  position: relative;
+  background: #1f1e1c;
+}
+
+.actiors__section__flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6.4rem;
+}
+
+.actiors__section__flex select {
+  border-radius: 8px;
+  border: 1px solid #ababab;
+  background: #181818;
+  padding: 12px;
+  font-size: 1.8rem;
+  color: var(--clr-grey-1);
+  font-weight: 500;
+  line-height: 24px;
+}

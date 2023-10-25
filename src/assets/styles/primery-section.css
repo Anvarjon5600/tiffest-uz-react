@@ -1,0 +1,8 @@
+.primery__section {
+  background: var(--clr-black-dark);
+  padding: 14rem 0;
+}
+
+.primery__section__slider {
+  margin-top: 6.4rem;
+}

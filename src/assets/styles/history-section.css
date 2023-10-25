@@ -1,0 +1,21 @@
+.history__section {
+  padding: 14rem 0;
+  background: var(--clr-black-dark);
+}
+
+.history__section__flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6.4rem;
+}
+.history__section__flex select {
+  border-radius: 8px;
+  border: 1px solid #ababab;
+  background: #181818;
+  font-size: 1.8rem;
+  padding: 12px;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--clr-grey-1);
+}

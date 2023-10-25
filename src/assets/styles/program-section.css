@@ -1,0 +1,31 @@
+.programm__section {
+  padding: 14rem 0;
+  background: var(--clr-black-dark);
+}
+
+.programm__section__flex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+  justify-content: space-between;
+}
+.programm__section__flex button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  border-radius: 8px;
+  border: 1px solid var(--clr-primary);
+  background: var(--clr-grey-10);
+  padding: 12px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--clr-grey-1);
+}
+
+.program__section__grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 2.4rem;
+}

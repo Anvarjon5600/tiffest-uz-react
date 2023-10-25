@@ -1,0 +1,111 @@
+header {
+  background: url(../images/bg_img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header__flex {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-between;
+}
+.header__left__side {
+  max-width: 498px;
+}
+.header__left__side img {
+  width: 100%;
+}
+.header__right__side {
+  max-width: 699.45px;
+}
+.header__right__side img {
+  width: 100%;
+}
+
+/*   375px , 576px,  768px, 992px, and 1200px */
+@media screen and (min-width: 375px) and (max-width: 576px) {
+  header {
+    background-size: 100% 100%;
+    padding: 34px 0 0;
+  }
+  .header__flex {
+    align-items: center;
+    gap: 0px;
+    flex-direction: column-reverse;
+  }
+  .header__left__side {
+    max-width: 350px;
+  }
+
+  .header__right__side {
+    max-width: 300px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  header {
+    background-size: cover;
+    padding: 34px 0 0;
+  }
+  .header__flex {
+    align-items: center;
+    gap: 20px;
+  }
+  .header__left__side {
+    max-width: 300px;
+  }
+  .header__right__side {
+    max-width: 280px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  header {
+    background-size: cover;
+    padding: 34px 0 0;
+  }
+  .header__flex {
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+  }
+  .header__left__side {
+    max-width: 300px;
+  }
+  .header__right__side {
+    max-width: 280px;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  header {
+    background-size: cover;
+  }
+  .header__flex {
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+  }
+  .header__left__side {
+    max-width: 370px;
+  }
+  .header__right__side {
+    max-width: 350px;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1408px) {
+  header {
+    background-size: cover;
+  }
+  .header__flex {
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+  }
+  .header__left__side {
+    max-width: 400px;
+  }
+  .header__right__side {
+    max-width: 500px;
+  }
+}

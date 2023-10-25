@@ -1,0 +1,16 @@
+.master__class__section {
+  position: relative;
+  background-color: var(--clr-black-light);
+  padding: 14rem 0;
+}
+.master__class__section .container {
+  position: relative;
+  z-index: 22;
+}
+
+.master__class__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 24px;
+  row-gap: 16px;
+}

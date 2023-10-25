@@ -1,0 +1,50 @@
+.location__section {
+  padding: 14rem 0;
+  position: relative;
+  background: #181818;
+}
+
+.location__section .container {
+  position: relative;
+  z-index: 22;
+}
+
+.location__section h5 {
+  font-size: 1.8rem;
+  color: var(--clr-grey-1);
+  margin-bottom: 8px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.location__section__line {
+  height: 1px;
+  background: #ababab;
+  margin-bottom: 24px;
+}
+
+.location__section__flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.location__section__flex p {
+  max-width: 60%;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 32px;
+  color: var(--clr-grey-1);
+}
+.location__section__flex a {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 32px;
+  color: var(--clr-grey-1);
+}
+.location__section__flex a span {
+  color: var(--clr-primary);
+}
+
+.location__section__flex img {
+  width: 546px;
+  height: 300px;
+}

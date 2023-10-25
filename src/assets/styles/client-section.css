@@ -1,0 +1,8 @@
+.client__section {
+  padding: 14rem 0;
+  background: var(--clr-black-dark);
+}
+
+.client__slider img {
+  height: 100px;
+}
