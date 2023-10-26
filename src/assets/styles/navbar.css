@@ -1,9 +1,10 @@
 nav {
-  background: var(--clr-black-dark);
+  background: var(--clr-black-dark-blur);
   padding: 2.4rem 0;
   width: 100vw;
-  position: sticky;
+  position: fixed;
   top: 0;
+  z-index: 1000;
 }
 .navbar__flex {
   display: flex;
@@ -11,8 +12,8 @@ nav {
   justify-content: space-between;
 }
 .nav__logo {
-  width: 9rem;
-  height: 7.6rem;
+  width: 70px;
+  height: 56px;
 }
 .nav__logo img {
   width: 100%;
@@ -67,7 +68,7 @@ nav {
   transition: var(--transition);
 }
 .social__link:hover svg path {
-  stroke: var(--clr-primary);
+  fill: var(--clr-primary);
 }
 .change__language {
   position: relative;

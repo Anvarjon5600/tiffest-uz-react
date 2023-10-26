@@ -6,6 +6,7 @@
   --clr-grey-3: #f2f2f2;
   --clr-grey-10: #454545;
   --clr-black-dark: #111;
+  --clr-black-dark-blur: rgba(0, 0, 0, 0.6);
   --clr-black-light: #1f1e1c;
   --transition: all 0.4s linear;
 }
@@ -22,8 +23,9 @@ body {
 html {
   font-size: 62.5%;
 }
+
 .container {
-  width: 100%;
+  width: 95%;
   max-width: 1408px;
   margin: 0 auto;
 }
@@ -33,7 +35,7 @@ ul {
 a {
   text-decoration: none;
   color: var(--clr-grey-1);
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 24px;
   font-weight: 600;
 }

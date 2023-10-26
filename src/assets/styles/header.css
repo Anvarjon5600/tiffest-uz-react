@@ -1,8 +1,29 @@
-header {
-  background: url(../images/bg_img.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+.header {
+  z-index: 40;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
 }
+
+.header-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 0;
+}
+
+.header-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
 .header__flex {
   display: flex;
   align-items: center;
@@ -10,16 +31,27 @@ header {
   justify-content: space-between;
 }
 .header__left__side {
-  max-width: 498px;
+  position: absolute;
+  max-width: 35vw;
+  top: 10rem;
+  left: 5vw;
+  z-index: 1;
 }
 .header__left__side img {
-  width: 100%;
+  width: 31.25vw;
 }
 .header__right__side {
-  max-width: 699.45px;
+  position: absolute;
+  max-width: 60vw;
+  top: -10rem;
+  bottom: 0;
+  right: 40rem;
+  z-index: 10;
 }
 .header__right__side img {
-  width: 100%;
+  width: 60vw;
+  height: 100%;
+  object-fit: cover;
 }
 
 /*   375px , 576px,  768px, 992px, and 1200px */

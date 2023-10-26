@@ -3,6 +3,11 @@
   padding: 140px 0;
   position: relative;
 }
+
+.position {
+  position: absolute;
+}
+
 .media__section .container {
   position: relative;
   z-index: 22;

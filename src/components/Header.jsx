@@ -1,10 +1,13 @@
 import award from "../assets/images/award.png";
-import year from "../assets/images/year.png";
-import bgImg from "../assets/images/bg_img.png";
+import year from "../assets/images/ENG 1.png";
+import bgImg from "../assets/images/svgfon.svg";
 import "../assets/styles/header.css";
 const Header = () => {
   return (
-    <header>
+    <header className="header">
+      <div className="header-image">
+        <img src={bgImg} alt="header background" />
+      </div>
       <div className="container">
         <div className="header__flex">
           <div className="header__left__side">
