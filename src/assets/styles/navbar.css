@@ -1,6 +1,6 @@
 nav {
   background: var(--clr-black-dark-blur);
-  padding: 2.4rem 0;
+  padding: 2rem 0;
   width: 100vw;
   position: fixed;
   top: 0;
@@ -75,8 +75,7 @@ nav {
   border-top: 1px solid var(--clr-grey-1);
   border-right: 1px solid var(--clr-grey-1);
   border-left: 1px solid var(--clr-grey-1);
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-radius: 8px;
   width: 83px;
   padding: 6px 12px;
 }
@@ -94,11 +93,11 @@ nav {
 
 .language__drop {
   position: absolute;
-  top: 36px;
+  /* top: 36px; */
   left: -0.6px;
   width: 102%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   border-right: 1px solid var(--clr-grey-1);
   border-left: 1px solid var(--clr-grey-1);
@@ -109,6 +108,7 @@ nav {
   border-bottom-right-radius: 9px;
 }
 .language__drop button {
+  padding: 6px 12px;
   background: none;
   border: none;
   font-size: 18px;
@@ -121,6 +121,11 @@ nav {
   opacity: 0;
   display: none;
 }
+.change__language:hover {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
 .change__language:hover button {
   opacity: 1;
   display: block;

@@ -12,8 +12,17 @@
   position: relative;
   z-index: 22;
 }
+
+.actiors__section__flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
 .media__title__flex {
   display: flex;
+
   align-items: center;
   justify-content: space-between;
   margin-bottom: 8px;
@@ -30,6 +39,33 @@
   background: #ababab;
   margin-bottom: 24px;
 }
+
+.media-video {
+  margin-top: 40px;
+}
+
+.media-select__date {
+  color: #fff;
+  font-size: 24px;
+  border: 1px solid #fff;
+  width: 174px;
+  outline: none;
+  padding: 10px;
+  background: #222;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+. option {
+  wisth: 100%;
+  outline: none;
+  padding: 10px;
+  background: #2222;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.media-select__date :hover {
+  border: 1px solid var(--clr-primary);
+}
+
 .media__section__grid__one {
   display: grid;
   grid-template-columns: repeat(6, 1fr);

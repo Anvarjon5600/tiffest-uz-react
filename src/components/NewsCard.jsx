@@ -1,5 +1,6 @@
 import { BigArrow } from "../assets/icons";
 import "../assets/styles/news-card.css";
+
 const NewsCard = ({ imgUrl, desc }) => {
   return (
     <div className="news__card">

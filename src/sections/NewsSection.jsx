@@ -4,7 +4,10 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import NewsCard from "../components/NewsCard";
 import "swiper/css/navigation";
 import "swiper/css";
-import img from "../assets/images/news_card.png";
+import img from "../assets/images/news/swiper-firsr.svg";
+import img2 from "../assets/images/news/swiper-second.svg";
+import img3 from "../assets/images/news/swiper-third.svg";
+import img4 from "../assets/images/news/swiper-fourth.svg";
 import "../assets/styles/news-section.css";
 const NewsSection = () => {
   const data = [
@@ -13,19 +16,19 @@ const NewsSection = () => {
       desc: "Алдияр Байракимов, режиссер нашумевшего казахского фильма «Паралимпиец»:",
     },
     {
-      img: img,
+      img: img2,
       desc: "Аяз Салаев, известный киновед, кинорежиссер, сценарист, педагог, телеведущий, актер, заслуженный деятель искусств Республики Азербайджан:",
     },
     {
-      img: img,
+      img: img3,
       desc: "Артём Михалков, известный актёр и режиссёр:",
     },
     {
-      img: img,
+      img: img4,
       desc: "Гульбара Толомушова, известная актриса театра и кино:",
     },
     {
-      img: img,
+      img: img4,
       desc: "Гульбара Толомушова, известная актриса театра и кино:",
     },
   ];
