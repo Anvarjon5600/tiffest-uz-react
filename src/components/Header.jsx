@@ -1,5 +1,6 @@
-import award from "../assets/images/award.png";
-import year from "../assets/images/ENG 1.png";
+import award from "../assets/images/award.webp";
+import date from "../assets/totalImages/banner-date-ru-e1f89997.png";
+import year from "../assets/totalImages/banner-ru-f96c4b00.png";
 import bgImg from "../assets/images/svgfon.svg";
 import "../assets/styles/header.css";
 const Header = () => {
@@ -9,12 +10,13 @@ const Header = () => {
         <img src={bgImg} alt="header background" />
       </div>
       <div className="container">
-        <div className="header__flex">
-          <div className="header__left__side">
-            <img src={award} alt="award img" />
+        <div className="header">
+          <div className="header-left left-img">
+            <img className="left-img__image" src={award} alt="award img" />
           </div>
-          <div className="header__right__side">
-            <img src={year} alt="year img" />
+          <div className="header-right right-img">
+            <img className="right-img__first" src={year} alt="year img" />
+            <img className="right-img__second" src={date} alt="year img" />
           </div>
         </div>
       </div>

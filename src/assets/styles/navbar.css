@@ -226,14 +226,14 @@ nav {
   display: none;
 }
 /*   375px , 576px,  768px, 992px, and 1200px */
-@media screen and (min-width: 375px) and (max-width: 576px) {
+@media screen and (min-width: 200px) and (max-width: 576px) {
   nav {
-    padding: 2.4rem 0;
+    padding: 2.4rem 2rem;
     overflow: hidden;
   }
   .nav__logo {
-    width: 8rem;
-    height: 6rem;
+    width: 5rem;
+    height: 5rem;
   }
   .navbar__link,
   .nav__social {
@@ -282,7 +282,7 @@ nav {
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .nav__logo {
     width: 5rem;
     height: 5rem;
@@ -323,7 +323,7 @@ nav {
   }
 }
 
-@media screen and (min-width: 993px) and (max-width: 1200px) {
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
   .nav__logo {
     width: 5rem;
     height: 5rem;
@@ -382,7 +382,7 @@ nav {
   }
 
   .language__drop {
-    top: 29px;
+    top: 25px;
     left: -0.6px;
     width: 102%;
     gap: 5px;

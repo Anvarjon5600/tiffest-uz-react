@@ -39,9 +39,31 @@ const NewsSection = () => {
 
         <div className="news__slider">
           <Swiper
+            breakpoints={{
+              200: {
+                // width: 576,
+                slidesPerView: 1,
+              },
+              576: {
+                // width: 576,
+                slidesPerView: 1,
+              },
+              768: {
+                // width: 768,
+                slidesPerView: 2,
+              },
+              1025: {
+                // width: 1025,
+                slidesPerView: 3,
+              },
+              1200: {
+                // width: 1200,
+                slidesPerView: 4,
+              },
+            }}
+            slidesPerView={4}
             modules={[Navigation, Pagination, Scrollbar, A11y]}
             spaceBetween={24}
-            slidesPerView={4}
             navigation
           >
             {data.map((item, i) => {

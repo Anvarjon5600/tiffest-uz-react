@@ -11,7 +11,7 @@ const NewsCard = ({ imgUrl, desc }) => {
         <p>{desc}</p>
         <div>
           <span>12.04.2023</span>
-          <div className="news__card__flex">
+          <div className="news-card__flex">
             <a href="#">Перейти </a>
             <BigArrow />
           </div>

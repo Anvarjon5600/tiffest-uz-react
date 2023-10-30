@@ -17,6 +17,16 @@ const Navbar = () => {
     setActive((e) => !e);
   };
 
+  const openMenu = () => {
+    const navManu = document.querySelector(".responsive__menu");
+    navManu.style.display = "block";
+  };
+
+  const closeMenu = () => {
+    const navManu = document.querySelector(".responsive__menu");
+    navManu.style.display = "none";
+  };
+
   return (
     <nav>
       <div className="container">
@@ -95,12 +105,12 @@ const Navbar = () => {
               </div>
             </li>
           </ul>
-          <div className="navbar__menu">
+          <div onClick={openMenu} className="navbar__menu">
             <MenuIcon />
           </div>
 
           <div className="responsive__menu">
-            <div className="close__icon">
+            <div onClick={closeMenu} className="close__icon">
               <Close />
             </div>
             <div className="res__nav__logo">
